@@ -45,7 +45,7 @@ public class PersonGroup {
 	 * @param person
 	 */
 	public void addGroupMember(Person person) {
-		this.groupMembers.add(person);
+		// TODO 実装してください。
 	}
 
 	/**
@@ -54,11 +54,7 @@ public class PersonGroup {
 	 * @return true if this group contains the argument person, false if not
 	 */
 	public boolean contains(Person person) {
-		for (Person member : groupMembers) {
-			if (member.equals(person)) {
-				return true;
-			}
-		}
+		// TODO 実装してください。
 		return false;
 	}
 
@@ -68,11 +64,7 @@ public class PersonGroup {
 	 * @return true if this group contains a person whose personId matches the arguement personId, false if not
 	 */
 	public boolean contains(int personId) {
-		for (Person member : groupMembers) {
-			if (member.getPersonId() == personId) {
-				return true;
-			}
-		}
+		// TODO 実装してください。
 		return false;
 	}
 }
