@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * PersonGroupクラスは人のグループを表すクラスです。
  * 以下の情報を保持します。
- * — グループID
+ * - グループID
  * - グループ名
  * - グループのメンバー
  * @author TAKASHIMA, Yusuke
