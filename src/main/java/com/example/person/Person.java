@@ -19,27 +19,4 @@ public class Person {
 
 	//TODO personId以外のgetterとsetterを実装してください。
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
-
-	public String getFirstName() {
-		return firstName;
-	}
-
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
-
-	public String getLastName() {
-		return lastName;
-	}
-
-	public void setBirthDate(Date birthDate) {
-		this.birthDate = birthDate;
-	}
-
-	public Date getBirthDate() {
-		return birthDate;
-	}
 }
