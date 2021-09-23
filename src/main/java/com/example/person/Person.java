@@ -2,11 +2,19 @@ package com.example.person;
 
 import java.util.Date;
 
+import com.opencsv.bean.CsvBindByName;
+import com.opencsv.bean.CsvDate;
+
 public class Person {
 
+	@CsvBindByName
 	private int personId = 0;
+	@CsvBindByName
 	private String firstName;
+	@CsvBindByName
 	private String lastName;
+	@CsvDate(value = "yyyy-MM-dd")
+	@CsvBindByName
 	private Date birthDate;
 
 	public void setPersonId(int personId) {

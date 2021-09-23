@@ -48,6 +48,10 @@ public class PersonGroup {
 		this.groupMembers.add(person);
 	}
 
+	public void addGroupMembers(List<Person> members) {
+		this.groupMembers.addAll(members);
+	}
+
 	/**
 	 * このグループに、特定の人（Person）が含まれているかを返します。
 	 * @param person
