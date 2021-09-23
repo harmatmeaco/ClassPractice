@@ -29,19 +29,17 @@ public class Organization {
 	}
 
 	public void addGroup(PersonGroup group) {
-		this.groups.add(group);
+		// TODO 実装してください
 	}
 
 	public void addGroups(List<PersonGroup> groups) {
-		this.groups.addAll(groups);
+		// TODO 実装してください
 	}
 
 	public int[] getGroupMemberCounts() {
 		int[] counts = new int[3];
 
-		for (int i = 0; i < groups.size(); i++) {
-			counts[i] = groups.get(i).getGroupMembers().size();
-		}
+		// TODO 実装してください
 
 		return counts;
 	}
@@ -49,9 +47,7 @@ public class Organization {
 	public List<Integer> getGroupMemberCountsList() {
 		List<Integer> counts = new ArrayList<>();
 
-		for (PersonGroup group : groups) {
-			counts.add(Integer.valueOf(group.getGroupMembers().size()));
-		}
+		// TODO 実装してください
 
 		return counts;
 	}
