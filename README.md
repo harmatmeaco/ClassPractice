@@ -3,7 +3,7 @@
 ## 導入方法
 
 ```
-git clone git@github.com:harmatmeaco/ClassPractice.git
+git clone https://github.com/harmatmeaco/ClassPractice.git
 cd ClassPractice
 mvn verify
 ```
