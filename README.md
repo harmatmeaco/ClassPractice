@@ -5,8 +5,8 @@
 ```
 git clone https://github.com/harmatmeaco/ClassPractice.git
 cd ClassPractice
-mvn verify
 git checkout level1-person
+mvn verify
 ```
 
 Eclipseからimport > Existing Maven Project
