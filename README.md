@@ -1,5 +1,12 @@
 # ClassPractice
 
+## 導入方法
+```
+git checkout level2-persongroup-result
+mvn verify
+git checkout level2-person-group
+```
+
 ## 問題
 PersonGroupクラスの
 - addGroupMember(Person person)
