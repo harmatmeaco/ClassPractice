@@ -4,7 +4,7 @@
 ```
 git checkout level2-persongroup-result
 mvn verify
-git checkout level2-person-group
+git checkout level2-persongroup
 ```
 
 ## 問題
