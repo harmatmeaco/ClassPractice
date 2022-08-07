@@ -92,7 +92,7 @@ class PersonTest {
 		person.setBirthDate(birthDate);
 		Field field = Person.class.getDeclaredField("birthDate");
 		field.setAccessible(true);
-		assertThat(field.get(person), is(birthDate));
+		assertThat((Date)field.get(person), is(birthDate));
 	}
 
 	@Test
